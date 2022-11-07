@@ -108,12 +108,10 @@ router.delete('/:id', async (req, res) => {
     },
   })
     .then((ProductTag) => {
-      console.log('ProductTag ===', ProductTag);
       // find all associated tags from ProductTag
       return Product.findAll({ where: { id: req.params.id } });
     })
     .then((product) => {
-      console.log('product ===', product);
       return Product.destroy({ where: { id: req.params.id } })
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
