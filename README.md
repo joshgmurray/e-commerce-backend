@@ -32,7 +32,7 @@ To install, first clone the repo to your local machine using 'git clone'.  Run t
 
 ## Demo
 
-You can find a walk through demo here: (insert screencastify link)
+You can find a walk through demo here: (https://watch.screencastify.com/v/fsL2fyRkzE63gofldGos)
 
 ## Tests
 
